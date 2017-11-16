@@ -4,14 +4,15 @@
 public class Square {
     int x;
     int y;
-    char figure='1';
+    char figure=' ';
+    boolean active;
     public void setFigure(char character){
         this.figure=character;
     }
     public char getFigure(){
         return figure;
     }
-    boolean active;
+
     public Square(int x,int y){
         this.x=x;
         this.y=y;

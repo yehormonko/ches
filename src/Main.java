@@ -3,15 +3,19 @@
  */
 public class Main {
     public static void main(String[] args) {
-        Field field = new Field(10);
-        field.put(0,0);
-        field.deleteField();
-        field.deleteField();
-        field.deleteField();
-        field.deleteField();
-        field.deleteField();
-        field.deleteField();
-       // field.deleteField();
+        Field field = new Field(8);
+        field.put(7,3);
+     field.deleteField();
+
+    field.deleteField();
+       field.deleteField();
+       //field.deleteField();
+      // field.deleteField();
+      // field.deleteField();
+
+        //field.deleteField();
+        //field.deleteField();
         field.display();
+
     }
 }
